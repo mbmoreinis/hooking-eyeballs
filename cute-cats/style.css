@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogtitle {
+padding-top:1em;
+color:firebrick;
+}
+
+.container img {
+margin-top:10px;
+border-top:3px solid #000;
+  width: 1350px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .container img {
+margin-top:10px;
+border-top:3px solid #000;
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+}
+}
+.reply {
+       margin-left:50px;
+     } 
+
+
+
+
+
+
+
+
+
+
+

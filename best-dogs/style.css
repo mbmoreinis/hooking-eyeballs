@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#blogtitle{
+  padding-top:1em;
+  color:maroon;
+}
+
+#container{
+  background-color:black;
+          }
+#container p{
+  color:white;
+}
+#container ul{
+  color:white;
+}
+#container li{
+  color:white;
+}
+#container h1{
+  color:maroon;
+}
+#container h2{
+  color:maroon;
+}
+#container h3{
+  color:maroon;
+}
+#container h4{
+  color:white;
+}
+#div1{
+  color:black;
+  background-color:white;
+}
+#blogcomments{
+  /* background-color:black; */
+  
+}
+
+#forceBlog{
+  color:#000!important;
+}
+
+.reply{
+  margin-left:50px!important;
+}
