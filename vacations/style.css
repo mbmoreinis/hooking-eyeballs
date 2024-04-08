@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color:#c7c7c7;
+}
+
+#blogtitle {
+  padding-top:1em;
+  color:#000000;
+}
+
+h1 {
+color:#3636d3;
+}
+
+.left{
+  float:left; 
+  margin-right:10px;
+}
+
+a {
+  color:#3636d3;
+}
+
+.reply {
+   margin-left:50px!important;
+ } 
