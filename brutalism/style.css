@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+ 
+}
+div.page { 
+background-attachment: scroll, scroll, fixed; 
+background-color: #c5baba;
+background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(noise.png);
+}
+#blogtitle {
+  padding-top:1em;
+  color:#474747
+}
+
+div.participation, div.benefits {
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138,188,159,0.5);
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  border: 4px solid #1c171700;
+}
+div.participation {
+padding: 1em 0;
+margin-top: 1em;
+}
+style
+v.impacts {
+  border: 10px transparent;
+  border-image: url(https://clipground.com/images/clipart-text-box-borders-9.png);
+  padding: 10px;
+}
+div.reply {
+margin-left:50px!important;
+}
