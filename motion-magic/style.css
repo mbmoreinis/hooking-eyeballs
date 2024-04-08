@@ -1,0 +1,178 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  padding: 0 25px;
+}
+
+#blogtitle {
+  padding-top: 1em;
+  color: #245900;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
+
+#blogtitle {
+  animation: elasticSlideUp 1s ease-in-out;
+}
+
+
+@keyframes elasticSlideUp {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-10px);
+  }
+  30% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(10px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.head {
+  text-align: center;
+  padding-top: 30px;
+}
+
+body {
+  font-family: 'Product Sans Bold';
+  background-color: #fff;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+
+}
+
+#rainbow {
+  color: #ff0000;
+}
+
+#rainbow {
+  animation: animate-hue 2s infinite;
+}
+
+@keyframes animate-hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Regular'), url('ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Italic'), url('ProductSans-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Thin Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Thin Regular'), url('ProductSans-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Light Regular'), url('ProductSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Medium Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Regular'), url('ProductSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Black Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Black Regular'), url('ProductSans-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Thin Italic'), url('ProductSans-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Light Italic'), url('ProductSans-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Italic'), url('ProductSans-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Italic'), url('ProductSans-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Product Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Bold'), url('ProductSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Bold Italic'), url('ProductSans-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Product Sans Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Black Italic'), url('ProductSans-BlackItalic.woff') format('woff');
+}
+
+img {
+  max-width: 75%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reply {
+  margin-left: 50px;
+}
